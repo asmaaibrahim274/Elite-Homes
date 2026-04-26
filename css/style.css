@@ -23,6 +23,10 @@ ul {
 body {
     font-family: sans-serif;
 }
+body::selection{
+    color: white;
+    background-color: #a684ff;
+}
 
 .pointer {
     cursor: pointer;
